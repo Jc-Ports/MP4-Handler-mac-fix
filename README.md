@@ -12,6 +12,7 @@
 - [GWebDev](https://github.com/GrowtopiaFli) - Inspiring me to do this.
 - [CryBit](https://github.com/CryBitDev) - fixing my shit lolololoolol
 - [Erizur](https://github.com/Erizur) - Linux Support
+- Bushtrain460615 - Mac Support
 - The contributors.
 
 ## About Linux Support
@@ -43,14 +44,6 @@ Add
 
 <assets path="plugins/" rename='' if="windows"/>
 <assets path="dlls/" rename='' if="windows"/>
-```
-
-**OPTIONAL: If your PC is ARM64, add this code:**
-
-Add:
-
-```xml
-<haxedef name="HXCPP_ARM64" />
 ```
 
 ### 3. Edit `Paths.hx`
