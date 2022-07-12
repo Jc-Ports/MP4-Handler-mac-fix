@@ -42,8 +42,8 @@ Add
 <assets path="assets/videos" exclude="*.mp3" if="web"/>
 <assets path="assets/videos" exclude="*.ogg" unless="web"/>
 
-<assets path="plugins/" rename='' if="windows"/>
-<assets path="dlls/" rename='' if="windows"/>
+<assets path="plugins/" rename='../MacOS'  if="mac"/>
+<assets path="dlls/" rename='../MacOS'  if="mac"/>
 ```
 
 ### 3. Edit `Paths.hx`
