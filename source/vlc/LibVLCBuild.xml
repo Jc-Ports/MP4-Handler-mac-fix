@@ -14,8 +14,10 @@
 	</target>
 
 	<target id='haxe' tool='linker' if='mac'>
-		<lib name='${CPP_DIR}/lib/Mac/libvlc.5.dylib'/>
-		<lib name='${CPP_DIR}/lib/Mac/libvlccore.7.dylib'/>
+		<lib name='${CPP_DIR}/lib/Mac/libvlc.12.dylib'/> 
+		<lib name='${CPP_DIR}/lib/Mac/libvlc.dylib'/>
+		<lib name='${CPP_DIR}/lib/Mac/libvlccore.9.dylib'/> 
+		<lib name='${CPP_DIR}/lib/Mac/libvlccore.dylib'/>
 	</target>
 	
 	<target id='haxe' tool='linker' toolid='exe'>
